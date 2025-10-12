@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Battle Area
+  - Floor
+  - NPC
+  - Enemy Projectile
+  - Enemy
+  - Player Projectile
+  - Good Karma Conversation
+  - Bad Karma Conversation
+  - Camera Point
+  - Defeat Conversation
+  - Parry Collider
+  - Shell
+  - Non-Attack Parry
+  - Boss Projectile
+  - Future Conversation
+  - Present Conversation
+  - Positive Conversation
+  - Negative Conversation
+  - Extra Conversation
+  - Manager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Characters
+    uniqueID: 1982473605
+    locked: 0
+  m_RenderingLayers:
+  - Default

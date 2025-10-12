@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac7714982e5a24f21be372f4a87a0d7d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 164725
+  packageName: Rogue Fantasy Castle
+  packageVersion: 1.0
+  assetPath: Assets/RF Castle/Animated/lightA01.controller
+  uploadId: 357221

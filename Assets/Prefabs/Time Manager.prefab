@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7223563120431826126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8753323231114311416}
+  - component: {fileID: 2061622361078659124}
+  - component: {fileID: 7251849076195024330}
+  - component: {fileID: 7633501374704564703}
+  m_Layer: 0
+  m_Name: Time Manager
+  m_TagString: Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8753323231114311416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223563120431826126}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 297.44543, y: 84.89819, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2061622361078659124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223563120431826126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c134aa20982ba465c8e6a98355a00c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScreenFade
+  fadeImage: {fileID: 0}
+  fadeDuration: 0.25
+  waitTime: 1.5
+--- !u!114 &7251849076195024330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223563120431826126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e781f95e484414ad4bb07f1c587e3111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
+  isPresent: 1
+  screenFade: {fileID: 0}
+  presentMap: {fileID: 0}
+  futureMap: {fileID: 0}
+  puzzleGate: {fileID: 0}
+  bossGate: {fileID: 0}
+  quickTimeUI: {fileID: 0}
+  currentQteTime: 0
+  totalQuickTime: 1
+  qteTimeFraction: 0
+  qteHappening: 0
+  qteClicked: 0
+  qteBar: {fileID: 0}
+--- !u!114 &7633501374704564703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223563120431826126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8d7557bb23a4f27ad2e0f5db09db5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ImportantValues
+  mutilatedColor: {r: 0.5, g: 0.125, b: 0.125, a: 1}
+  burySprite: {fileID: 21300000, guid: 8a0a082cf706c4df8b1a9b8f7c05957d, type: 2}
